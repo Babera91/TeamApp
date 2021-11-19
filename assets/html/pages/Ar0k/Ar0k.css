@@ -1,0 +1,54 @@
+/* GoogleFont Import */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Estonia&display=swap');
+
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: #1d2026;
+}
+
+/* Headline Styling */
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+    font-family: "Estonia";
+}
+
+/* Video Styling */
+video{
+    width: 375px; 
+    height: 212px;
+}
+
+/* Homebutton Sytling */
+img{
+    position: absolute;
+    top: 80vh;
+    left: 36vw;
+    width: 30vw;
+}
+
+/* Browser Version 1920px */
+@media(min-width:1920px){
+    h1{
+    font-size: 10rem;
+    }
+    video{
+        width: 1920px; 
+        height: 1000px;
+    }
+    img{
+        position: absolute;
+        top: 22vh;
+        left: 46vw;
+        width: 10vw;
+    }
+}

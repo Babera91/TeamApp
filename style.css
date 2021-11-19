@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Comforter+Brush&display=swap');
+/* Global Styling */
+
+*{
+    margin:0;
+    padding:0;
+    color:white;
+}
+body{
+    background-color: #1d2026;
+}
+
+/* HeaderIMG */
+.Crazy1{
+    position: absolute;
+    top:19vh;
+    left:16vw;
+    width: 70vw;
+}
+
+
+/* Headline Styling */
+.FrontHeadline{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 5vh ;
+    padding-bottom: 20vh;
+    font-family: "Estonia";
+}
+
+
+/* Navigation Styling */
+.nav{
+    padding-top:10%;
+    list-style: none;
+}
+.navli{
+    padding-bottom:30%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Button Styling */
+.link{
+    font-family: "Comforter Brush";
+    box-shadow: rgb(211, 205, 205) 2px 2px 6px;
+    border-radius: 51px;
+    padding: 5% 25%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.linkAlles{
+    font-family: "Comforter Brush";
+    box-shadow: rgb(211, 205, 205) 2px 2px 6px;
+    border-radius: 51px;
+    padding: 5% 31%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.linkGinger{
+    font-family: "Comforter Brush";
+    box-shadow: rgb(211, 205, 205) 2px 2px 6px;
+    border-radius: 51px;
+    padding: 5% 31%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.link:hover{
+    color:pink;
+}
+
+/* Browser Version 1920px */
+@media(min-width:1920px){
+    .FrontHeadline{
+    font-size: 12rem;
+    }
+    .Crazy1{
+        position: absolute;
+        top:1vh;
+        left:5vw;
+        width: 30vw;
+    }
+    .nav{
+        padding-top:3%;
+    }
+    .navli{
+        padding-bottom:9%;
+    }
+    .link{
+        padding: 2% 21.5%;
+        font-size: 4rem;
+    }
+    .linkAlles{
+        padding: 2% 24%;
+        font-size: 4rem;
+    }
+    .linkGinger{
+        padding: 2% 24%;
+        font-size: 4rem;
+    }
+}
+
+
